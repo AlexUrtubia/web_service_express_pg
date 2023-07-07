@@ -1,0 +1,24 @@
+{
+  "name": "web_service_express_pg",
+  "version": "1.0.0",
+  "description": "Web app node express pg",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexUrtubia/web_service_express_pg.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "pg"
+  ],
+  "author": "AlexUrtubia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexUrtubia/web_service_express_pg/issues"
+  },
+  "homepage": "https://github.com/AlexUrtubia/web_service_express_pg#readme"
+}
