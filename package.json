@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Web app node express pg",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +23,20 @@
   "bugs": {
     "url": "https://github.com/AlexUrtubia/web_service_express_pg/issues"
   },
-  "homepage": "https://github.com/AlexUrtubia/web_service_express_pg#readme"
+  "homepage": "https://github.com/AlexUrtubia/web_service_express_pg#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "morgan": "^1.10.0",
+    "pg": "^8.11.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=18 <20"
+  }
 }
